@@ -10,9 +10,6 @@ class ApplicationController < Sinatra::Base
 		erb :signup
 	end
 
-	post '/signup' do
-    @user = User.new(params[:name], params[:email], params[:zipcode], params[:password])
-    erb :welcome
-  end
+	## add an action to handle your form submission here!
 
 end
