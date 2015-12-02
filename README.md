@@ -22,3 +22,4 @@ In `signup.erb`, build a form - don't forget the method and action!
 ### Step 3 - Connecting in the controller
 
 In your controller, create a route and action for when the form is submitted. This action should create a new user, save it to an instance variable, pass it into the view, and render the `welcome.erb` page. 
+<a href='https://learn.co/lessons/hs-healthcare-signup' data-visibility='hidden'>View this lesson on Learn.co</a>
